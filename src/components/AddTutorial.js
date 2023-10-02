@@ -52,7 +52,6 @@ export default class AddTutorial extends Component {
       });
   }
 
-
   newTutorial(){
     this.setState({
       id: null,
@@ -84,7 +83,7 @@ export default class AddTutorial extends Component {
               required />
             </div>
             <div className='form-group'>
-              <label htmlFor='description'>description</label>
+              <label htmlFor='description'>Description</label>
               <input type='text' 
               className='form-control' 
               id='description' 
